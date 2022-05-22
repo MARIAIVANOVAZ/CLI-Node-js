@@ -1,0 +1,32 @@
+{
+  "name": "cli-node",
+  "version": "1.0.0",
+  "description": "my first cli app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MARIAIVANOVAZ/CLI-Node-js.git"
+  },
+  "keywords": [
+    "cli",
+    "node"
+  ],
+  "author": "Maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MARIAIVANOVAZ/CLI-Node-js/issues"
+  },
+  "homepage": "https://github.com/MARIAIVANOVAZ/CLI-Node-js#readme",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2",
+    "yargs": "^17.5.1"
+  }
+}
