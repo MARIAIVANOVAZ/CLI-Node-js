@@ -24,6 +24,7 @@ async function addContact(name, email, phone) {
     id: uuid.v4(),
     name: name,
     email: email,
+
     phone: phone,
   };
   console.log(newContact);
